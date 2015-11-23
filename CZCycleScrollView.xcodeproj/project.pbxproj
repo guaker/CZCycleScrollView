@@ -7,68 +7,68 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		823A283F1C02EFDA0064F183 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 823A283E1C02EFDA0064F183 /* main.m */; };
-		823A28421C02EFDA0064F183 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 823A28411C02EFDA0064F183 /* AppDelegate.m */; };
-		823A28451C02EFDA0064F183 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 823A28441C02EFDA0064F183 /* ViewController.m */; };
-		823A28481C02EFDA0064F183 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823A28461C02EFDA0064F183 /* Main.storyboard */; };
-		823A284A1C02EFDA0064F183 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 823A28491C02EFDA0064F183 /* Assets.xcassets */; };
-		823A284D1C02EFDA0064F183 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 823A284B1C02EFDA0064F183 /* LaunchScreen.storyboard */; };
-		823A28581C02EFDA0064F183 /* CZCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 823A28571C02EFDA0064F183 /* CZCycleScrollViewTests.m */; };
-		823A28631C02EFDA0064F183 /* CZCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 823A28621C02EFDA0064F183 /* CZCycleScrollViewUITests.m */; };
+		82BE4FD41C0311BE009548DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FD31C0311BE009548DA /* main.m */; };
+		82BE4FD71C0311BE009548DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FD61C0311BE009548DA /* AppDelegate.m */; };
+		82BE4FDA1C0311BE009548DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FD91C0311BE009548DA /* ViewController.m */; };
+		82BE4FDD1C0311BE009548DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BE4FDB1C0311BE009548DA /* Main.storyboard */; };
+		82BE4FDF1C0311BE009548DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BE4FDE1C0311BE009548DA /* Assets.xcassets */; };
+		82BE4FE21C0311BE009548DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BE4FE01C0311BE009548DA /* LaunchScreen.storyboard */; };
+		82BE4FED1C0311BF009548DA /* CZCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FEC1C0311BF009548DA /* CZCycleScrollViewTests.m */; };
+		82BE4FF81C0311BF009548DA /* CZCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FF71C0311BF009548DA /* CZCycleScrollViewUITests.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		823A28541C02EFDA0064F183 /* PBXContainerItemProxy */ = {
+		82BE4FE91C0311BF009548DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 823A28321C02EFDA0064F183 /* Project object */;
+			containerPortal = 82BE4FC71C0311BE009548DA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 823A28391C02EFDA0064F183;
+			remoteGlobalIDString = 82BE4FCE1C0311BE009548DA;
 			remoteInfo = CZCycleScrollView;
 		};
-		823A285F1C02EFDA0064F183 /* PBXContainerItemProxy */ = {
+		82BE4FF41C0311BF009548DA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 823A28321C02EFDA0064F183 /* Project object */;
+			containerPortal = 82BE4FC71C0311BE009548DA /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 823A28391C02EFDA0064F183;
+			remoteGlobalIDString = 82BE4FCE1C0311BE009548DA;
 			remoteInfo = CZCycleScrollView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		823A283A1C02EFDA0064F183 /* CZCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		823A283E1C02EFDA0064F183 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		823A28401C02EFDA0064F183 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		823A28411C02EFDA0064F183 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		823A28431C02EFDA0064F183 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		823A28441C02EFDA0064F183 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		823A28471C02EFDA0064F183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		823A28491C02EFDA0064F183 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		823A284C1C02EFDA0064F183 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		823A284E1C02EFDA0064F183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		823A28531C02EFDA0064F183 /* CZCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		823A28571C02EFDA0064F183 /* CZCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCycleScrollViewTests.m; sourceTree = "<group>"; };
-		823A28591C02EFDA0064F183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		823A285E1C02EFDA0064F183 /* CZCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		823A28621C02EFDA0064F183 /* CZCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCycleScrollViewUITests.m; sourceTree = "<group>"; };
-		823A28641C02EFDA0064F183 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BE4FCF1C0311BE009548DA /* CZCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BE4FD31C0311BE009548DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		82BE4FD51C0311BE009548DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		82BE4FD61C0311BE009548DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		82BE4FD81C0311BE009548DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		82BE4FD91C0311BE009548DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		82BE4FDC1C0311BE009548DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		82BE4FDE1C0311BE009548DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		82BE4FE11C0311BE009548DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		82BE4FE31C0311BE009548DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BE4FE81C0311BF009548DA /* CZCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BE4FEC1C0311BF009548DA /* CZCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCycleScrollViewTests.m; sourceTree = "<group>"; };
+		82BE4FEE1C0311BF009548DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82BE4FF31C0311BF009548DA /* CZCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		82BE4FF71C0311BF009548DA /* CZCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCycleScrollViewUITests.m; sourceTree = "<group>"; };
+		82BE4FF91C0311BF009548DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		823A28371C02EFDA0064F183 /* Frameworks */ = {
+		82BE4FCC1C0311BE009548DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823A28501C02EFDA0064F183 /* Frameworks */ = {
+		82BE4FE51C0311BF009548DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823A285B1C02EFDA0064F183 /* Frameworks */ = {
+		82BE4FF01C0311BF009548DA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,64 +78,64 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		823A28311C02EFDA0064F183 = {
+		82BE4FC61C0311BE009548DA = {
 			isa = PBXGroup;
 			children = (
-				823A283C1C02EFDA0064F183 /* CZCycleScrollView */,
-				823A28561C02EFDA0064F183 /* CZCycleScrollViewTests */,
-				823A28611C02EFDA0064F183 /* CZCycleScrollViewUITests */,
-				823A283B1C02EFDA0064F183 /* Products */,
+				82BE4FD11C0311BE009548DA /* CZCycleScrollView */,
+				82BE4FEB1C0311BF009548DA /* CZCycleScrollViewTests */,
+				82BE4FF61C0311BF009548DA /* CZCycleScrollViewUITests */,
+				82BE4FD01C0311BE009548DA /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		823A283B1C02EFDA0064F183 /* Products */ = {
+		82BE4FD01C0311BE009548DA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				823A283A1C02EFDA0064F183 /* CZCycleScrollView.app */,
-				823A28531C02EFDA0064F183 /* CZCycleScrollViewTests.xctest */,
-				823A285E1C02EFDA0064F183 /* CZCycleScrollViewUITests.xctest */,
+				82BE4FCF1C0311BE009548DA /* CZCycleScrollView.app */,
+				82BE4FE81C0311BF009548DA /* CZCycleScrollViewTests.xctest */,
+				82BE4FF31C0311BF009548DA /* CZCycleScrollViewUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		823A283C1C02EFDA0064F183 /* CZCycleScrollView */ = {
+		82BE4FD11C0311BE009548DA /* CZCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				823A28401C02EFDA0064F183 /* AppDelegate.h */,
-				823A28411C02EFDA0064F183 /* AppDelegate.m */,
-				823A28431C02EFDA0064F183 /* ViewController.h */,
-				823A28441C02EFDA0064F183 /* ViewController.m */,
-				823A28461C02EFDA0064F183 /* Main.storyboard */,
-				823A28491C02EFDA0064F183 /* Assets.xcassets */,
-				823A284B1C02EFDA0064F183 /* LaunchScreen.storyboard */,
-				823A284E1C02EFDA0064F183 /* Info.plist */,
-				823A283D1C02EFDA0064F183 /* Supporting Files */,
+				82BE4FD51C0311BE009548DA /* AppDelegate.h */,
+				82BE4FD61C0311BE009548DA /* AppDelegate.m */,
+				82BE4FD81C0311BE009548DA /* ViewController.h */,
+				82BE4FD91C0311BE009548DA /* ViewController.m */,
+				82BE4FDB1C0311BE009548DA /* Main.storyboard */,
+				82BE4FDE1C0311BE009548DA /* Assets.xcassets */,
+				82BE4FE01C0311BE009548DA /* LaunchScreen.storyboard */,
+				82BE4FE31C0311BE009548DA /* Info.plist */,
+				82BE4FD21C0311BE009548DA /* Supporting Files */,
 			);
 			path = CZCycleScrollView;
 			sourceTree = "<group>";
 		};
-		823A283D1C02EFDA0064F183 /* Supporting Files */ = {
+		82BE4FD21C0311BE009548DA /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				823A283E1C02EFDA0064F183 /* main.m */,
+				82BE4FD31C0311BE009548DA /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		823A28561C02EFDA0064F183 /* CZCycleScrollViewTests */ = {
+		82BE4FEB1C0311BF009548DA /* CZCycleScrollViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				823A28571C02EFDA0064F183 /* CZCycleScrollViewTests.m */,
-				823A28591C02EFDA0064F183 /* Info.plist */,
+				82BE4FEC1C0311BF009548DA /* CZCycleScrollViewTests.m */,
+				82BE4FEE1C0311BF009548DA /* Info.plist */,
 			);
 			path = CZCycleScrollViewTests;
 			sourceTree = "<group>";
 		};
-		823A28611C02EFDA0064F183 /* CZCycleScrollViewUITests */ = {
+		82BE4FF61C0311BF009548DA /* CZCycleScrollViewUITests */ = {
 			isa = PBXGroup;
 			children = (
-				823A28621C02EFDA0064F183 /* CZCycleScrollViewUITests.m */,
-				823A28641C02EFDA0064F183 /* Info.plist */,
+				82BE4FF71C0311BF009548DA /* CZCycleScrollViewUITests.m */,
+				82BE4FF91C0311BF009548DA /* Info.plist */,
 			);
 			path = CZCycleScrollViewUITests;
 			sourceTree = "<group>";
@@ -143,13 +143,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		823A28391C02EFDA0064F183 /* CZCycleScrollView */ = {
+		82BE4FCE1C0311BE009548DA /* CZCycleScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 823A28671C02EFDA0064F183 /* Build configuration list for PBXNativeTarget "CZCycleScrollView" */;
+			buildConfigurationList = 82BE4FFC1C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollView" */;
 			buildPhases = (
-				823A28361C02EFDA0064F183 /* Sources */,
-				823A28371C02EFDA0064F183 /* Frameworks */,
-				823A28381C02EFDA0064F183 /* Resources */,
+				82BE4FCB1C0311BE009548DA /* Sources */,
+				82BE4FCC1C0311BE009548DA /* Frameworks */,
+				82BE4FCD1C0311BE009548DA /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,68 +157,68 @@
 			);
 			name = CZCycleScrollView;
 			productName = CZCycleScrollView;
-			productReference = 823A283A1C02EFDA0064F183 /* CZCycleScrollView.app */;
+			productReference = 82BE4FCF1C0311BE009548DA /* CZCycleScrollView.app */;
 			productType = "com.apple.product-type.application";
 		};
-		823A28521C02EFDA0064F183 /* CZCycleScrollViewTests */ = {
+		82BE4FE71C0311BF009548DA /* CZCycleScrollViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 823A286A1C02EFDA0064F183 /* Build configuration list for PBXNativeTarget "CZCycleScrollViewTests" */;
+			buildConfigurationList = 82BE4FFF1C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollViewTests" */;
 			buildPhases = (
-				823A284F1C02EFDA0064F183 /* Sources */,
-				823A28501C02EFDA0064F183 /* Frameworks */,
-				823A28511C02EFDA0064F183 /* Resources */,
+				82BE4FE41C0311BF009548DA /* Sources */,
+				82BE4FE51C0311BF009548DA /* Frameworks */,
+				82BE4FE61C0311BF009548DA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				823A28551C02EFDA0064F183 /* PBXTargetDependency */,
+				82BE4FEA1C0311BF009548DA /* PBXTargetDependency */,
 			);
 			name = CZCycleScrollViewTests;
 			productName = CZCycleScrollViewTests;
-			productReference = 823A28531C02EFDA0064F183 /* CZCycleScrollViewTests.xctest */;
+			productReference = 82BE4FE81C0311BF009548DA /* CZCycleScrollViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		823A285D1C02EFDA0064F183 /* CZCycleScrollViewUITests */ = {
+		82BE4FF21C0311BF009548DA /* CZCycleScrollViewUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 823A286D1C02EFDA0064F183 /* Build configuration list for PBXNativeTarget "CZCycleScrollViewUITests" */;
+			buildConfigurationList = 82BE50021C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollViewUITests" */;
 			buildPhases = (
-				823A285A1C02EFDA0064F183 /* Sources */,
-				823A285B1C02EFDA0064F183 /* Frameworks */,
-				823A285C1C02EFDA0064F183 /* Resources */,
+				82BE4FEF1C0311BF009548DA /* Sources */,
+				82BE4FF01C0311BF009548DA /* Frameworks */,
+				82BE4FF11C0311BF009548DA /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				823A28601C02EFDA0064F183 /* PBXTargetDependency */,
+				82BE4FF51C0311BF009548DA /* PBXTargetDependency */,
 			);
 			name = CZCycleScrollViewUITests;
 			productName = CZCycleScrollViewUITests;
-			productReference = 823A285E1C02EFDA0064F183 /* CZCycleScrollViewUITests.xctest */;
+			productReference = 82BE4FF31C0311BF009548DA /* CZCycleScrollViewUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		823A28321C02EFDA0064F183 /* Project object */ = {
+		82BE4FC71C0311BE009548DA /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0710;
-				ORGANIZATIONNAME = cz;
+				ORGANIZATIONNAME = guaker;
 				TargetAttributes = {
-					823A28391C02EFDA0064F183 = {
+					82BE4FCE1C0311BE009548DA = {
 						CreatedOnToolsVersion = 7.1.1;
 					};
-					823A28521C02EFDA0064F183 = {
+					82BE4FE71C0311BF009548DA = {
 						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 823A28391C02EFDA0064F183;
+						TestTargetID = 82BE4FCE1C0311BE009548DA;
 					};
-					823A285D1C02EFDA0064F183 = {
+					82BE4FF21C0311BF009548DA = {
 						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 823A28391C02EFDA0064F183;
+						TestTargetID = 82BE4FCE1C0311BE009548DA;
 					};
 				};
 			};
-			buildConfigurationList = 823A28351C02EFDA0064F183 /* Build configuration list for PBXProject "CZCycleScrollView" */;
+			buildConfigurationList = 82BE4FCA1C0311BE009548DA /* Build configuration list for PBXProject "CZCycleScrollView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,37 +226,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 823A28311C02EFDA0064F183;
-			productRefGroup = 823A283B1C02EFDA0064F183 /* Products */;
+			mainGroup = 82BE4FC61C0311BE009548DA;
+			productRefGroup = 82BE4FD01C0311BE009548DA /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				823A28391C02EFDA0064F183 /* CZCycleScrollView */,
-				823A28521C02EFDA0064F183 /* CZCycleScrollViewTests */,
-				823A285D1C02EFDA0064F183 /* CZCycleScrollViewUITests */,
+				82BE4FCE1C0311BE009548DA /* CZCycleScrollView */,
+				82BE4FE71C0311BF009548DA /* CZCycleScrollViewTests */,
+				82BE4FF21C0311BF009548DA /* CZCycleScrollViewUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		823A28381C02EFDA0064F183 /* Resources */ = {
+		82BE4FCD1C0311BE009548DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823A284D1C02EFDA0064F183 /* LaunchScreen.storyboard in Resources */,
-				823A284A1C02EFDA0064F183 /* Assets.xcassets in Resources */,
-				823A28481C02EFDA0064F183 /* Main.storyboard in Resources */,
+				82BE4FE21C0311BE009548DA /* LaunchScreen.storyboard in Resources */,
+				82BE4FDF1C0311BE009548DA /* Assets.xcassets in Resources */,
+				82BE4FDD1C0311BE009548DA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823A28511C02EFDA0064F183 /* Resources */ = {
+		82BE4FE61C0311BF009548DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823A285C1C02EFDA0064F183 /* Resources */ = {
+		82BE4FF11C0311BF009548DA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -266,60 +266,60 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		823A28361C02EFDA0064F183 /* Sources */ = {
+		82BE4FCB1C0311BE009548DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823A28451C02EFDA0064F183 /* ViewController.m in Sources */,
-				823A28421C02EFDA0064F183 /* AppDelegate.m in Sources */,
-				823A283F1C02EFDA0064F183 /* main.m in Sources */,
+				82BE4FDA1C0311BE009548DA /* ViewController.m in Sources */,
+				82BE4FD71C0311BE009548DA /* AppDelegate.m in Sources */,
+				82BE4FD41C0311BE009548DA /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823A284F1C02EFDA0064F183 /* Sources */ = {
+		82BE4FE41C0311BF009548DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823A28581C02EFDA0064F183 /* CZCycleScrollViewTests.m in Sources */,
+				82BE4FED1C0311BF009548DA /* CZCycleScrollViewTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		823A285A1C02EFDA0064F183 /* Sources */ = {
+		82BE4FEF1C0311BF009548DA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				823A28631C02EFDA0064F183 /* CZCycleScrollViewUITests.m in Sources */,
+				82BE4FF81C0311BF009548DA /* CZCycleScrollViewUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		823A28551C02EFDA0064F183 /* PBXTargetDependency */ = {
+		82BE4FEA1C0311BF009548DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 823A28391C02EFDA0064F183 /* CZCycleScrollView */;
-			targetProxy = 823A28541C02EFDA0064F183 /* PBXContainerItemProxy */;
+			target = 82BE4FCE1C0311BE009548DA /* CZCycleScrollView */;
+			targetProxy = 82BE4FE91C0311BF009548DA /* PBXContainerItemProxy */;
 		};
-		823A28601C02EFDA0064F183 /* PBXTargetDependency */ = {
+		82BE4FF51C0311BF009548DA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 823A28391C02EFDA0064F183 /* CZCycleScrollView */;
-			targetProxy = 823A285F1C02EFDA0064F183 /* PBXContainerItemProxy */;
+			target = 82BE4FCE1C0311BE009548DA /* CZCycleScrollView */;
+			targetProxy = 82BE4FF41C0311BF009548DA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		823A28461C02EFDA0064F183 /* Main.storyboard */ = {
+		82BE4FDB1C0311BE009548DA /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				823A28471C02EFDA0064F183 /* Base */,
+				82BE4FDC1C0311BE009548DA /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		823A284B1C02EFDA0064F183 /* LaunchScreen.storyboard */ = {
+		82BE4FE01C0311BE009548DA /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				823A284C1C02EFDA0064F183 /* Base */,
+				82BE4FE11C0311BE009548DA /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,7 +327,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		823A28651C02EFDA0064F183 /* Debug */ = {
+		82BE4FFA1C0311BF009548DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -370,7 +370,7 @@
 			};
 			name = Debug;
 		};
-		823A28661C02EFDA0064F183 /* Release */ = {
+		82BE4FFB1C0311BF009548DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -407,70 +407,70 @@
 			};
 			name = Release;
 		};
-		823A28681C02EFDA0064F183 /* Debug */ = {
+		82BE4FFD1C0311BF009548DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZCycleScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.CZCycleScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		823A28691C02EFDA0064F183 /* Release */ = {
+		82BE4FFE1C0311BF009548DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZCycleScrollView/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.CZCycleScrollView;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
 		};
-		823A286B1C02EFDA0064F183 /* Debug */ = {
+		82BE50001C0311BF009548DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CZCycleScrollViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.CZCycleScrollViewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZCycleScrollView.app/CZCycleScrollView";
 			};
 			name = Debug;
 		};
-		823A286C1C02EFDA0064F183 /* Release */ = {
+		82BE50011C0311BF009548DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = CZCycleScrollViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.CZCycleScrollViewTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZCycleScrollView.app/CZCycleScrollView";
 			};
 			name = Release;
 		};
-		823A286E1C02EFDA0064F183 /* Debug */ = {
+		82BE50031C0311BF009548DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = CZCycleScrollViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.CZCycleScrollViewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = CZCycleScrollView;
 				USES_XCTRUNNER = YES;
 			};
 			name = Debug;
 		};
-		823A286F1C02EFDA0064F183 /* Release */ = {
+		82BE50041C0311BF009548DA /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = CZCycleScrollViewUITests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = cz.CZCycleScrollViewUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollViewUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TEST_TARGET_NAME = CZCycleScrollView;
 				USES_XCTRUNNER = YES;
@@ -480,40 +480,40 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		823A28351C02EFDA0064F183 /* Build configuration list for PBXProject "CZCycleScrollView" */ = {
+		82BE4FCA1C0311BE009548DA /* Build configuration list for PBXProject "CZCycleScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				823A28651C02EFDA0064F183 /* Debug */,
-				823A28661C02EFDA0064F183 /* Release */,
+				82BE4FFA1C0311BF009548DA /* Debug */,
+				82BE4FFB1C0311BF009548DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		823A28671C02EFDA0064F183 /* Build configuration list for PBXNativeTarget "CZCycleScrollView" */ = {
+		82BE4FFC1C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				823A28681C02EFDA0064F183 /* Debug */,
-				823A28691C02EFDA0064F183 /* Release */,
+				82BE4FFD1C0311BF009548DA /* Debug */,
+				82BE4FFE1C0311BF009548DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		823A286A1C02EFDA0064F183 /* Build configuration list for PBXNativeTarget "CZCycleScrollViewTests" */ = {
+		82BE4FFF1C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				823A286B1C02EFDA0064F183 /* Debug */,
-				823A286C1C02EFDA0064F183 /* Release */,
+				82BE50001C0311BF009548DA /* Debug */,
+				82BE50011C0311BF009548DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
-		823A286D1C02EFDA0064F183 /* Build configuration list for PBXNativeTarget "CZCycleScrollViewUITests" */ = {
+		82BE50021C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollViewUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				823A286E1C02EFDA0064F183 /* Debug */,
-				823A286F1C02EFDA0064F183 /* Release */,
+				82BE50031C0311BF009548DA /* Debug */,
+				82BE50041C0311BF009548DA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 823A28321C02EFDA0064F183 /* Project object */;
+	rootObject = 82BE4FC71C0311BE009548DA /* Project object */;
 }

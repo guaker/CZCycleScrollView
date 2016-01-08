@@ -20,6 +20,7 @@
     self = [super initWithFrame:frame];
     if (self) {
         self.backgroundColor = [UIColor grayColor];
+        self.clipsToBounds = YES;
         
         _scrollView = [[UIScrollView alloc] initWithFrame:CGRectMake(0, 0, c_width + c_padding, c_height)];
         _scrollView.contentSize = CGSizeMake((c_width + c_padding) * 3, 0);

@@ -19,7 +19,7 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
     
-    CZCycleScrollView *cycleScrollView = [[CZCycleScrollView alloc] initWithFrame:CGRectMake(10, 10, CGRectGetWidth(self.view.bounds)-20, CGRectGetHeight(self.view.bounds)-20)];
+    CZCycleScrollView *cycleScrollView = [[CZCycleScrollView alloc] initWithFrame:CGRectMake(20, 20, CGRectGetWidth(self.view.bounds)-40, CGRectGetHeight(self.view.bounds)-40)];
     cycleScrollView.delegate = self;
     [self.view addSubview:cycleScrollView];
     

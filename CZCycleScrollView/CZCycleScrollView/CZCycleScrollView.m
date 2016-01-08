@@ -10,8 +10,8 @@
 
 #define c_width         (self.bounds.size.width)
 #define c_height        (self.bounds.size.height)
-#define c_padding       10
-#define c_time_interval 3
+#define c_padding       10 //图片之间的间隔
+#define c_time_interval 3 //定时器时间
 
 @implementation CZCycleScrollView
 
@@ -91,8 +91,6 @@
     //创建imageView
     for (int i = 0; i < 3; i++) {
         UIImageView *imageView = [[UIImageView alloc] initWithFrame:CGRectMake((c_width + c_padding) * i, 0, c_width, c_height)];
-        //
-        imageView.image = _curImageArray[i];
         imageView.userInteractionEnabled = YES;
         [_scrollView addSubview:imageView];
         
@@ -100,6 +98,16 @@
         UITapGestureRecognizer *tap = [[UITapGestureRecognizer alloc] initWithTarget:self
                                                                               action:@selector(tapImage:)];
         [imageView addGestureRecognizer:tap];
+        
+        //设置图片
+        id curImage = _curImageArray[i];
+        if ([curImage isKindOfClass:[UIImage class]]) {
+            imageView.image = _curImageArray[i];
+        } else if ([curImage isKindOfClass:[NSString class]]) {
+            //链接字符串
+        } else if ([curImage isKindOfClass:[NSURL class]]) {
+            //链接地址
+        }
     }
 }
 

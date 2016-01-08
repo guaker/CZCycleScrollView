@@ -7,68 +7,32 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		82BE4FD41C0311BE009548DA /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FD31C0311BE009548DA /* main.m */; };
-		82BE4FD71C0311BE009548DA /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FD61C0311BE009548DA /* AppDelegate.m */; };
-		82BE4FDA1C0311BE009548DA /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FD91C0311BE009548DA /* ViewController.m */; };
-		82BE4FDD1C0311BE009548DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BE4FDB1C0311BE009548DA /* Main.storyboard */; };
-		82BE4FDF1C0311BE009548DA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82BE4FDE1C0311BE009548DA /* Assets.xcassets */; };
-		82BE4FE21C0311BE009548DA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82BE4FE01C0311BE009548DA /* LaunchScreen.storyboard */; };
-		82BE4FED1C0311BF009548DA /* CZCycleScrollViewTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FEC1C0311BF009548DA /* CZCycleScrollViewTests.m */; };
-		82BE4FF81C0311BF009548DA /* CZCycleScrollViewUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 82BE4FF71C0311BF009548DA /* CZCycleScrollViewUITests.m */; };
+		8214F8081C325DDE0008D4D4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8214F8071C325DDE0008D4D4 /* main.m */; };
+		8214F80B1C325DDE0008D4D4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8214F80A1C325DDE0008D4D4 /* AppDelegate.m */; };
+		8214F80E1C325DDE0008D4D4 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8214F80D1C325DDE0008D4D4 /* ViewController.m */; };
+		8214F8111C325DDE0008D4D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8214F80F1C325DDE0008D4D4 /* Main.storyboard */; };
+		8214F8131C325DDE0008D4D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8214F8121C325DDE0008D4D4 /* Assets.xcassets */; };
+		8214F8161C325DDE0008D4D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8214F8141C325DDE0008D4D4 /* LaunchScreen.storyboard */; };
+		8214F8201C3280BF0008D4D4 /* CZCycleScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8214F81F1C3280BF0008D4D4 /* CZCycleScrollView.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		82BE4FE91C0311BF009548DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82BE4FC71C0311BE009548DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82BE4FCE1C0311BE009548DA;
-			remoteInfo = CZCycleScrollView;
-		};
-		82BE4FF41C0311BF009548DA /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 82BE4FC71C0311BE009548DA /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 82BE4FCE1C0311BE009548DA;
-			remoteInfo = CZCycleScrollView;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		82BE4FCF1C0311BE009548DA /* CZCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		82BE4FD31C0311BE009548DA /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		82BE4FD51C0311BE009548DA /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		82BE4FD61C0311BE009548DA /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		82BE4FD81C0311BE009548DA /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		82BE4FD91C0311BE009548DA /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		82BE4FDC1C0311BE009548DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		82BE4FDE1C0311BE009548DA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		82BE4FE11C0311BE009548DA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		82BE4FE31C0311BE009548DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82BE4FE81C0311BF009548DA /* CZCycleScrollViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZCycleScrollViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		82BE4FEC1C0311BF009548DA /* CZCycleScrollViewTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCycleScrollViewTests.m; sourceTree = "<group>"; };
-		82BE4FEE1C0311BF009548DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		82BE4FF31C0311BF009548DA /* CZCycleScrollViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CZCycleScrollViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		82BE4FF71C0311BF009548DA /* CZCycleScrollViewUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CZCycleScrollViewUITests.m; sourceTree = "<group>"; };
-		82BE4FF91C0311BF009548DA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8214F8031C325DDE0008D4D4 /* CZCycleScrollView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CZCycleScrollView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8214F8071C325DDE0008D4D4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		8214F8091C325DDE0008D4D4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		8214F80A1C325DDE0008D4D4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		8214F80C1C325DDE0008D4D4 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		8214F80D1C325DDE0008D4D4 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		8214F8101C325DDE0008D4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8214F8121C325DDE0008D4D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8214F8151C325DDE0008D4D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8214F8171C325DDE0008D4D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8214F81E1C3280BF0008D4D4 /* CZCycleScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CZCycleScrollView.h; sourceTree = "<group>"; };
+		8214F81F1C3280BF0008D4D4 /* CZCycleScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CZCycleScrollView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		82BE4FCC1C0311BE009548DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82BE4FE51C0311BF009548DA /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82BE4FF01C0311BF009548DA /* Frameworks */ = {
+		8214F8001C325DDE0008D4D4 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -78,78 +42,66 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		82BE4FC61C0311BE009548DA = {
+		8214F7FA1C325DDE0008D4D4 = {
 			isa = PBXGroup;
 			children = (
-				82BE4FD11C0311BE009548DA /* CZCycleScrollView */,
-				82BE4FEB1C0311BF009548DA /* CZCycleScrollViewTests */,
-				82BE4FF61C0311BF009548DA /* CZCycleScrollViewUITests */,
-				82BE4FD01C0311BE009548DA /* Products */,
+				8214F8051C325DDE0008D4D4 /* CZCycleScrollView */,
+				8214F8041C325DDE0008D4D4 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		82BE4FD01C0311BE009548DA /* Products */ = {
+		8214F8041C325DDE0008D4D4 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				82BE4FCF1C0311BE009548DA /* CZCycleScrollView.app */,
-				82BE4FE81C0311BF009548DA /* CZCycleScrollViewTests.xctest */,
-				82BE4FF31C0311BF009548DA /* CZCycleScrollViewUITests.xctest */,
+				8214F8031C325DDE0008D4D4 /* CZCycleScrollView.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		82BE4FD11C0311BE009548DA /* CZCycleScrollView */ = {
+		8214F8051C325DDE0008D4D4 /* CZCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				82BE4FD51C0311BE009548DA /* AppDelegate.h */,
-				82BE4FD61C0311BE009548DA /* AppDelegate.m */,
-				82BE4FD81C0311BE009548DA /* ViewController.h */,
-				82BE4FD91C0311BE009548DA /* ViewController.m */,
-				82BE4FDB1C0311BE009548DA /* Main.storyboard */,
-				82BE4FDE1C0311BE009548DA /* Assets.xcassets */,
-				82BE4FE01C0311BE009548DA /* LaunchScreen.storyboard */,
-				82BE4FE31C0311BE009548DA /* Info.plist */,
-				82BE4FD21C0311BE009548DA /* Supporting Files */,
+				8214F8091C325DDE0008D4D4 /* AppDelegate.h */,
+				8214F80A1C325DDE0008D4D4 /* AppDelegate.m */,
+				8214F81D1C327C760008D4D4 /* CZCycleScrollView */,
+				8214F80C1C325DDE0008D4D4 /* ViewController.h */,
+				8214F80D1C325DDE0008D4D4 /* ViewController.m */,
+				8214F80F1C325DDE0008D4D4 /* Main.storyboard */,
+				8214F8121C325DDE0008D4D4 /* Assets.xcassets */,
+				8214F8141C325DDE0008D4D4 /* LaunchScreen.storyboard */,
+				8214F8171C325DDE0008D4D4 /* Info.plist */,
+				8214F8061C325DDE0008D4D4 /* Supporting Files */,
 			);
 			path = CZCycleScrollView;
 			sourceTree = "<group>";
 		};
-		82BE4FD21C0311BE009548DA /* Supporting Files */ = {
+		8214F8061C325DDE0008D4D4 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				82BE4FD31C0311BE009548DA /* main.m */,
+				8214F8071C325DDE0008D4D4 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		82BE4FEB1C0311BF009548DA /* CZCycleScrollViewTests */ = {
+		8214F81D1C327C760008D4D4 /* CZCycleScrollView */ = {
 			isa = PBXGroup;
 			children = (
-				82BE4FEC1C0311BF009548DA /* CZCycleScrollViewTests.m */,
-				82BE4FEE1C0311BF009548DA /* Info.plist */,
+				8214F81E1C3280BF0008D4D4 /* CZCycleScrollView.h */,
+				8214F81F1C3280BF0008D4D4 /* CZCycleScrollView.m */,
 			);
-			path = CZCycleScrollViewTests;
-			sourceTree = "<group>";
-		};
-		82BE4FF61C0311BF009548DA /* CZCycleScrollViewUITests */ = {
-			isa = PBXGroup;
-			children = (
-				82BE4FF71C0311BF009548DA /* CZCycleScrollViewUITests.m */,
-				82BE4FF91C0311BF009548DA /* Info.plist */,
-			);
-			path = CZCycleScrollViewUITests;
+			path = CZCycleScrollView;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		82BE4FCE1C0311BE009548DA /* CZCycleScrollView */ = {
+		8214F8021C325DDE0008D4D4 /* CZCycleScrollView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 82BE4FFC1C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollView" */;
+			buildConfigurationList = 8214F81A1C325DDE0008D4D4 /* Build configuration list for PBXNativeTarget "CZCycleScrollView" */;
 			buildPhases = (
-				82BE4FCB1C0311BE009548DA /* Sources */,
-				82BE4FCC1C0311BE009548DA /* Frameworks */,
-				82BE4FCD1C0311BE009548DA /* Resources */,
+				8214F7FF1C325DDE0008D4D4 /* Sources */,
+				8214F8001C325DDE0008D4D4 /* Frameworks */,
+				8214F8011C325DDE0008D4D4 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -157,68 +109,24 @@
 			);
 			name = CZCycleScrollView;
 			productName = CZCycleScrollView;
-			productReference = 82BE4FCF1C0311BE009548DA /* CZCycleScrollView.app */;
+			productReference = 8214F8031C325DDE0008D4D4 /* CZCycleScrollView.app */;
 			productType = "com.apple.product-type.application";
-		};
-		82BE4FE71C0311BF009548DA /* CZCycleScrollViewTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82BE4FFF1C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollViewTests" */;
-			buildPhases = (
-				82BE4FE41C0311BF009548DA /* Sources */,
-				82BE4FE51C0311BF009548DA /* Frameworks */,
-				82BE4FE61C0311BF009548DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82BE4FEA1C0311BF009548DA /* PBXTargetDependency */,
-			);
-			name = CZCycleScrollViewTests;
-			productName = CZCycleScrollViewTests;
-			productReference = 82BE4FE81C0311BF009548DA /* CZCycleScrollViewTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		82BE4FF21C0311BF009548DA /* CZCycleScrollViewUITests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 82BE50021C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollViewUITests" */;
-			buildPhases = (
-				82BE4FEF1C0311BF009548DA /* Sources */,
-				82BE4FF01C0311BF009548DA /* Frameworks */,
-				82BE4FF11C0311BF009548DA /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				82BE4FF51C0311BF009548DA /* PBXTargetDependency */,
-			);
-			name = CZCycleScrollViewUITests;
-			productName = CZCycleScrollViewUITests;
-			productReference = 82BE4FF31C0311BF009548DA /* CZCycleScrollViewUITests.xctest */;
-			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		82BE4FC71C0311BE009548DA /* Project object */ = {
+		8214F7FB1C325DDE0008D4D4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0710;
+				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = guaker;
 				TargetAttributes = {
-					82BE4FCE1C0311BE009548DA = {
-						CreatedOnToolsVersion = 7.1.1;
-					};
-					82BE4FE71C0311BF009548DA = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 82BE4FCE1C0311BE009548DA;
-					};
-					82BE4FF21C0311BF009548DA = {
-						CreatedOnToolsVersion = 7.1.1;
-						TestTargetID = 82BE4FCE1C0311BE009548DA;
+					8214F8021C325DDE0008D4D4 = {
+						CreatedOnToolsVersion = 7.2;
 					};
 				};
 			};
-			buildConfigurationList = 82BE4FCA1C0311BE009548DA /* Build configuration list for PBXProject "CZCycleScrollView" */;
+			buildConfigurationList = 8214F7FE1C325DDE0008D4D4 /* Build configuration list for PBXProject "CZCycleScrollView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -226,100 +134,56 @@
 				en,
 				Base,
 			);
-			mainGroup = 82BE4FC61C0311BE009548DA;
-			productRefGroup = 82BE4FD01C0311BE009548DA /* Products */;
+			mainGroup = 8214F7FA1C325DDE0008D4D4;
+			productRefGroup = 8214F8041C325DDE0008D4D4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				82BE4FCE1C0311BE009548DA /* CZCycleScrollView */,
-				82BE4FE71C0311BF009548DA /* CZCycleScrollViewTests */,
-				82BE4FF21C0311BF009548DA /* CZCycleScrollViewUITests */,
+				8214F8021C325DDE0008D4D4 /* CZCycleScrollView */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		82BE4FCD1C0311BE009548DA /* Resources */ = {
+		8214F8011C325DDE0008D4D4 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BE4FE21C0311BE009548DA /* LaunchScreen.storyboard in Resources */,
-				82BE4FDF1C0311BE009548DA /* Assets.xcassets in Resources */,
-				82BE4FDD1C0311BE009548DA /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82BE4FE61C0311BF009548DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82BE4FF11C0311BF009548DA /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				8214F8161C325DDE0008D4D4 /* LaunchScreen.storyboard in Resources */,
+				8214F8131C325DDE0008D4D4 /* Assets.xcassets in Resources */,
+				8214F8111C325DDE0008D4D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		82BE4FCB1C0311BE009548DA /* Sources */ = {
+		8214F7FF1C325DDE0008D4D4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82BE4FDA1C0311BE009548DA /* ViewController.m in Sources */,
-				82BE4FD71C0311BE009548DA /* AppDelegate.m in Sources */,
-				82BE4FD41C0311BE009548DA /* main.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82BE4FE41C0311BF009548DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82BE4FED1C0311BF009548DA /* CZCycleScrollViewTests.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		82BE4FEF1C0311BF009548DA /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				82BE4FF81C0311BF009548DA /* CZCycleScrollViewUITests.m in Sources */,
+				8214F80E1C325DDE0008D4D4 /* ViewController.m in Sources */,
+				8214F8201C3280BF0008D4D4 /* CZCycleScrollView.m in Sources */,
+				8214F80B1C325DDE0008D4D4 /* AppDelegate.m in Sources */,
+				8214F8081C325DDE0008D4D4 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		82BE4FEA1C0311BF009548DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82BE4FCE1C0311BE009548DA /* CZCycleScrollView */;
-			targetProxy = 82BE4FE91C0311BF009548DA /* PBXContainerItemProxy */;
-		};
-		82BE4FF51C0311BF009548DA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 82BE4FCE1C0311BE009548DA /* CZCycleScrollView */;
-			targetProxy = 82BE4FF41C0311BF009548DA /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		82BE4FDB1C0311BE009548DA /* Main.storyboard */ = {
+		8214F80F1C325DDE0008D4D4 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				82BE4FDC1C0311BE009548DA /* Base */,
+				8214F8101C325DDE0008D4D4 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		82BE4FE01C0311BE009548DA /* LaunchScreen.storyboard */ = {
+		8214F8141C325DDE0008D4D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				82BE4FE11C0311BE009548DA /* Base */,
+				8214F8151C325DDE0008D4D4 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -327,7 +191,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		82BE4FFA1C0311BF009548DA /* Debug */ = {
+		8214F8181C325DDE0008D4D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -363,14 +227,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		82BE4FFB1C0311BF009548DA /* Release */ = {
+		8214F8191C325DDE0008D4D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -400,120 +264,59 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		82BE4FFD1C0311BF009548DA /* Debug */ = {
+		8214F81B1C325DDE0008D4D4 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		82BE4FFE1C0311BF009548DA /* Release */ = {
+		8214F81C1C325DDE0008D4D4 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = CZCycleScrollView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollView;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-			};
-			name = Release;
-		};
-		82BE50001C0311BF009548DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CZCycleScrollViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZCycleScrollView.app/CZCycleScrollView";
-			};
-			name = Debug;
-		};
-		82BE50011C0311BF009548DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				INFOPLIST_FILE = CZCycleScrollViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollViewTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CZCycleScrollView.app/CZCycleScrollView";
-			};
-			name = Release;
-		};
-		82BE50031C0311BF009548DA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CZCycleScrollViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CZCycleScrollView;
-				USES_XCTRUNNER = YES;
-			};
-			name = Debug;
-		};
-		82BE50041C0311BF009548DA /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = CZCycleScrollViewUITests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.guaker.CZCycleScrollViewUITests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_TARGET_NAME = CZCycleScrollView;
-				USES_XCTRUNNER = YES;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		82BE4FCA1C0311BE009548DA /* Build configuration list for PBXProject "CZCycleScrollView" */ = {
+		8214F7FE1C325DDE0008D4D4 /* Build configuration list for PBXProject "CZCycleScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82BE4FFA1C0311BF009548DA /* Debug */,
-				82BE4FFB1C0311BF009548DA /* Release */,
+				8214F8181C325DDE0008D4D4 /* Debug */,
+				8214F8191C325DDE0008D4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		82BE4FFC1C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollView" */ = {
+		8214F81A1C325DDE0008D4D4 /* Build configuration list for PBXNativeTarget "CZCycleScrollView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				82BE4FFD1C0311BF009548DA /* Debug */,
-				82BE4FFE1C0311BF009548DA /* Release */,
+				8214F81B1C325DDE0008D4D4 /* Debug */,
+				8214F81C1C325DDE0008D4D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-		};
-		82BE4FFF1C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollViewTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82BE50001C0311BF009548DA /* Debug */,
-				82BE50011C0311BF009548DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-		};
-		82BE50021C0311BF009548DA /* Build configuration list for PBXNativeTarget "CZCycleScrollViewUITests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				82BE50031C0311BF009548DA /* Debug */,
-				82BE50041C0311BF009548DA /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 82BE4FC71C0311BE009548DA /* Project object */;
+	rootObject = 8214F7FB1C325DDE0008D4D4 /* Project object */;
 }

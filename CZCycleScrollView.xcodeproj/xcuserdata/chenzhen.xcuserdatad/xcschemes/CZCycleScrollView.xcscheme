@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0710"
+   LastUpgradeVersion = "0720"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82BE4FCE1C0311BE009548DA"
+               BlueprintIdentifier = "8214F8021C325DDE0008D4D4"
                BuildableName = "CZCycleScrollView.app"
                BlueprintName = "CZCycleScrollView"
                ReferencedContainer = "container:CZCycleScrollView.xcodeproj">
@@ -28,31 +28,11 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82BE4FE71C0311BF009548DA"
-               BuildableName = "CZCycleScrollViewTests.xctest"
-               BlueprintName = "CZCycleScrollViewTests"
-               ReferencedContainer = "container:CZCycleScrollView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "82BE4FF21C0311BF009548DA"
-               BuildableName = "CZCycleScrollViewUITests.xctest"
-               BlueprintName = "CZCycleScrollViewUITests"
-               ReferencedContainer = "container:CZCycleScrollView.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "82BE4FCE1C0311BE009548DA"
+            BlueprintIdentifier = "8214F8021C325DDE0008D4D4"
             BuildableName = "CZCycleScrollView.app"
             BlueprintName = "CZCycleScrollView"
             ReferencedContainer = "container:CZCycleScrollView.xcodeproj">
@@ -75,7 +55,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "82BE4FCE1C0311BE009548DA"
+            BlueprintIdentifier = "8214F8021C325DDE0008D4D4"
             BuildableName = "CZCycleScrollView.app"
             BlueprintName = "CZCycleScrollView"
             ReferencedContainer = "container:CZCycleScrollView.xcodeproj">
@@ -94,7 +74,7 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "82BE4FCE1C0311BE009548DA"
+            BlueprintIdentifier = "8214F8021C325DDE0008D4D4"
             BuildableName = "CZCycleScrollView.app"
             BlueprintName = "CZCycleScrollView"
             ReferencedContainer = "container:CZCycleScrollView.xcodeproj">

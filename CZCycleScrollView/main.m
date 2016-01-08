@@ -2,7 +2,7 @@
 //  main.m
 //  CZCycleScrollView
 //
-//  Created by guaker on 15/11/23.
+//  Created by guaker on 15/12/29.
 //  Copyright © 2015年 guaker. All rights reserved.
 //
 

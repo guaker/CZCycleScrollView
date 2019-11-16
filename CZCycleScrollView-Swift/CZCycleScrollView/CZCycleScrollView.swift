@@ -7,7 +7,7 @@
 //
 
 import UIKit
-import SDWebImage
+//import SDWebImage
 
 //代理
 @objc protocol CZCycleScrollViewDelegate {
@@ -18,7 +18,8 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
     
     weak var delegate: CZCycleScrollViewDelegate?
     
-    var imageArray = [BannerModel]() {
+    //[String]自己改成model类型
+    var imageArray = [String]() {
         didSet {
             if self.imageArray.isEmpty == false {
                 //设置分页控件总页数
@@ -36,6 +37,7 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
                     self.timer = nil
                 }
                 
+                //定时器时间可设置成常量
                 self.timer = Timer(timeInterval: 6,
                                    target: self,
                                    selector: #selector(autoCycleScroll(timer:)),
@@ -76,7 +78,7 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
         //分页
         self.pageControl = UIPageControl(frame: CGRect(x: 0, y: self.bounds.height - 30, width: self.bounds.width, height: 30))
         self.pageControl.isUserInteractionEnabled = false
-        self.pageControl.currentPageIndicatorTintColor = colorTheme
+        self.pageControl.currentPageIndicatorTintColor = .red
         self.pageControl.pageIndicatorTintColor = .white
         self.pageControl.hidesForSinglePage = false
         self.addSubview(self.pageControl)
@@ -173,17 +175,21 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
             let curDataArray = self.displayData(page: self.curPage)
                         
             //设置图片
-            self.firstImageView.sd_setImage(with: URL(string: curDataArray[0].image), placeholderImage: UIImage(named: "placeholder_banner"))
-            self.secondImageView.sd_setImage(with: URL(string: curDataArray[1].image), placeholderImage: UIImage(named: "placeholder_banner"))
-            self.thirdImageView.sd_setImage(with: URL(string: curDataArray[2].image), placeholderImage: UIImage(named: "placeholder_banner"))
+            self.firstImageView.image = UIImage(named: curDataArray[0])
+            self.secondImageView.image = UIImage(named: curDataArray[1])
+            self.thirdImageView.image = UIImage(named: curDataArray[2])
+            
+//            self.firstImageView.sd_setImage(with: URL(string: curDataArray[0].image), placeholderImage: UIImage(named: "placeholder_banner"))
+//            self.secondImageView.sd_setImage(with: URL(string: curDataArray[1].image), placeholderImage: UIImage(named: "placeholder_banner"))
+//            self.thirdImageView.sd_setImage(with: URL(string: curDataArray[2].image), placeholderImage: UIImage(named: "placeholder_banner"))
         }
     }
     
     /// 当前显示的数据
     ///
     /// - Parameter page: 当前页
-    /// - Returns: 当前展示的三条数据
-    private func displayData(page: Int) -> [BannerModel] {
+    /// - Returns: 当前展示的三条数据，自己传model，和self.imageArray类型一致
+    private func displayData(page: Int) -> [String] {
         //取出开头和末尾图片在图片数组里的下标
         var front = page - 1
         var last = page + 1

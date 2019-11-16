@@ -13,6 +13,7 @@
 		82DFC799237A86830060A7A9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC797237A86830060A7A9 /* Main.storyboard */; };
 		82DFC79B237A86830060A7A9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC79A237A86830060A7A9 /* Assets.xcassets */; };
 		82DFC79E237A86830060A7A9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 82DFC79C237A86830060A7A9 /* LaunchScreen.storyboard */; };
+		82DFC7A8237A894B0060A7A9 /* CZCycleScrollView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82DFC7A7237A894B0060A7A9 /* CZCycleScrollView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		82DFC79A237A86830060A7A9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		82DFC79D237A86830060A7A9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		82DFC79F237A86830060A7A9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		82DFC7A7237A894B0060A7A9 /* CZCycleScrollView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CZCycleScrollView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				82DFC791237A86820060A7A9 /* AppDelegate.swift */,
 				82DFC793237A86820060A7A9 /* SceneDelegate.swift */,
 				82DFC795237A86820060A7A9 /* ViewController.swift */,
+				82DFC7A7237A894B0060A7A9 /* CZCycleScrollView.swift */,
 				82DFC797237A86830060A7A9 /* Main.storyboard */,
 				82DFC79A237A86830060A7A9 /* Assets.xcassets */,
 				82DFC79C237A86830060A7A9 /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				82DFC796237A86820060A7A9 /* ViewController.swift in Sources */,
+				82DFC7A8237A894B0060A7A9 /* CZCycleScrollView.swift in Sources */,
 				82DFC792237A86820060A7A9 /* AppDelegate.swift in Sources */,
 				82DFC794237A86820060A7A9 /* SceneDelegate.swift in Sources */,
 			);

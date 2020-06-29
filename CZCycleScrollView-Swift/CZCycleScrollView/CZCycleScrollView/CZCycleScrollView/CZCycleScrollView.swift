@@ -18,7 +18,7 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
     
     weak var delegate: CZCycleScrollViewDelegate?
     
-    //[String]自己改成model类型
+    //[String]改成model类型
     var imageArray = [String]() {
         didSet {
             if self.imageArray.isEmpty == false {

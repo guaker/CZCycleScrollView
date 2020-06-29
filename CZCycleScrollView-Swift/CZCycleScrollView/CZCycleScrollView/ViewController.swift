@@ -14,9 +14,8 @@ class ViewController: UIViewController, CZCycleScrollViewDelegate {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
         
-        self.bannerView = CZCycleScrollView.init(frame: CGRect.init(x: 0, y: 0, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width / 16 * 9))
+        self.bannerView = CZCycleScrollView(frame: CGRect(x: 0, y: UIApplication.shared.windows[0].safeAreaInsets.top, width: UIScreen.main.bounds.width, height: UIScreen.main.bounds.width / 16 * 9))
         self.bannerView.delegate = self
         self.view.addSubview(self.bannerView)
         

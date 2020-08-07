@@ -2,8 +2,8 @@
 //  CZCycleScrollView.swift
 //  BoneForDoctor
 //
-//  Created by chenzhen on 2017/4/26.
-//  Copyright © 2017年 YuanTe. All rights reserved.
+//  Created by apple on 2017/4/26.
+//  Copyright © 2017年 apple. All rights reserved.
 //
 
 import UIKit
@@ -18,7 +18,6 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
     
     weak var delegate: CZCycleScrollViewDelegate?
     
-    //[String]改成model类型
     var imageArray = [String]() {
         didSet {
             if self.imageArray.isEmpty == false {
@@ -37,7 +36,6 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
                     self.timer = nil
                 }
                 
-                //定时器时间可设置成常量
                 self.timer = Timer(timeInterval: 6,
                                    target: self,
                                    selector: #selector(autoCycleScroll(timer:)),
@@ -53,10 +51,12 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
     
     var scrollView: UIScrollView!
     
+    private var titleLabel: UILabel!
     private var pageControl: UIPageControl!
-    private var firstImageView: UIImageView!
-    private var secondImageView: UIImageView!
-    private var thirdImageView: UIImageView!
+    
+    private var imageView0: UIImageView!
+    private var imageView1: UIImageView!
+    private var imageView2: UIImageView!
     
     private var timer: Timer?
     
@@ -65,54 +65,7 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
     override init(frame: CGRect) {
         super.init(frame: frame)
         
-        //背景
-        self.scrollView = UIScrollView(frame: self.bounds)
-        self.scrollView.contentSize = CGSize(width: self.bounds.width * 3, height: 0)
-        self.scrollView.contentOffset = CGPoint(x: self.bounds.width, y: 0)
-        self.scrollView.isPagingEnabled = true
-        self.scrollView.isScrollEnabled = false
-        self.scrollView.showsHorizontalScrollIndicator = false
-        self.scrollView.delegate = self
-        self.addSubview(self.scrollView)
-        
-        //分页
-        self.pageControl = UIPageControl(frame: CGRect(x: 0, y: self.bounds.height - 30, width: self.bounds.width, height: 30))
-        self.pageControl.isUserInteractionEnabled = false
-        self.pageControl.currentPageIndicatorTintColor = .red
-        self.pageControl.pageIndicatorTintColor = .white
-        self.pageControl.hidesForSinglePage = false
-        self.addSubview(self.pageControl)
-        
-        //图片1
-        self.firstImageView = UIImageView(image: UIImage(named: "placeholder_banner"))
-        self.firstImageView.frame = CGRect(origin: .zero, size: self.bounds.size)
-        self.firstImageView.contentMode = .scaleAspectFill
-        self.firstImageView.clipsToBounds = true
-        self.firstImageView.isUserInteractionEnabled = true
-        self.firstImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapImage(tap:))))
-        self.scrollView.addSubview(self.firstImageView)
-        
-        //图片2
-        self.secondImageView = UIImageView(image: UIImage(named: "placeholder_banner"))
-        self.secondImageView.frame = CGRect(origin: CGPoint(x: self.bounds.width, y: 0), size: self.bounds.size)
-        self.secondImageView.contentMode = .scaleAspectFill
-        self.secondImageView.clipsToBounds = true
-        self.secondImageView.isUserInteractionEnabled = true
-        self.secondImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapImage(tap:))))
-        self.scrollView.addSubview(self.secondImageView)
-        
-        //图片3
-        self.thirdImageView = UIImageView(image: UIImage(named: "placeholder_banner"))
-        self.thirdImageView.frame = CGRect(origin: CGPoint(x: self.bounds.width * 2, y: 0), size: self.bounds.size)
-        self.thirdImageView.contentMode = .scaleAspectFill
-        self.thirdImageView.clipsToBounds = true
-        self.thirdImageView.isUserInteractionEnabled = true
-        self.thirdImageView.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapImage(tap:))))
-        self.scrollView.addSubview(self.thirdImageView)
-    }
-    
-    required init?(coder aDecoder: NSCoder) {
-        fatalError("init(coder:) has not been implemented")
+        self.setupSubviews()
     }
     
     //MARK: - UIScrollViewDelegate
@@ -173,22 +126,26 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
             
             //根据当前页取出图片
             let curDataArray = self.displayData(page: self.curPage)
-                        
-            //设置图片
-            self.firstImageView.image = UIImage(named: curDataArray[0])
-            self.secondImageView.image = UIImage(named: curDataArray[1])
-            self.thirdImageView.image = UIImage(named: curDataArray[2])
             
-//            self.firstImageView.sd_setImage(with: URL(string: curDataArray[0].image), placeholderImage: UIImage(named: "placeholder_banner"))
-//            self.secondImageView.sd_setImage(with: URL(string: curDataArray[1].image), placeholderImage: UIImage(named: "placeholder_banner"))
-//            self.thirdImageView.sd_setImage(with: URL(string: curDataArray[2].image), placeholderImage: UIImage(named: "placeholder_banner"))
+            self.imageView0.image = UIImage(named: curDataArray[0])
+            self.imageView1.image = UIImage(named: curDataArray[1])
+            self.imageView2.image = UIImage(named: curDataArray[2])
+            
+            //设置图片
+//            self.imageView0.sd_setImage(with: URL(string: curDataArray[0].imageUrl), placeholderImage: UIImage(named: "placeholder_image"))
+//            self.imageView1.sd_setImage(with: URL(string: curDataArray[1].imageUrl), placeholderImage: UIImage(named: "placeholder_image"))
+//            self.imageView2.sd_setImage(with: URL(string: curDataArray[2].imageUrl), placeholderImage: UIImage(named: "placeholder_image"))
+            
+            //设置标题
+//            self.titleLabel.text = curDataArray[1].bannerName
+            self.titleLabel.text = "自行替换标题或删除布局"
         }
     }
     
     /// 当前显示的数据
     ///
     /// - Parameter page: 当前页
-    /// - Returns: 当前展示的三条数据，自己传model，和self.imageArray类型一致
+    /// - Returns: 当前展示的三条数据
     private func displayData(page: Int) -> [String] {
         //取出开头和末尾图片在图片数组里的下标
         var front = page - 1
@@ -207,6 +164,115 @@ class CZCycleScrollView: UIView, UIScrollViewDelegate {
         return [self.imageArray[front],
                 self.imageArray[page],
                 self.imageArray[last]]
+    }
+    
+    /// UI
+    private func setupSubviews() {
+        //背景
+        self.scrollView = UIScrollView(frame: self.bounds)
+        self.scrollView.contentSize = CGSize(width: self.bounds.width * 3, height: 0)
+        self.scrollView.contentOffset = CGPoint(x: self.bounds.width, y: 0)
+        self.scrollView.isPagingEnabled = true
+        self.scrollView.isScrollEnabled = false
+        self.scrollView.showsHorizontalScrollIndicator = false
+        self.scrollView.delegate = self
+        self.addSubview(self.scrollView)
+        
+        //图片0
+        self.imageView0 = UIImageView()
+        self.imageView0.frame = CGRect(origin: .zero, size: self.bounds.size)
+        self.imageView0.contentMode = .scaleAspectFill
+        self.imageView0.clipsToBounds = true
+        self.imageView0.isUserInteractionEnabled = true
+        self.imageView0.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapImage(tap:))))
+        self.scrollView.addSubview(self.imageView0)
+        
+        //图片1
+        self.imageView1 = UIImageView()
+        self.imageView1.frame = CGRect(origin: CGPoint(x: self.bounds.width, y: 0), size: self.bounds.size)
+        self.imageView1.contentMode = .scaleAspectFill
+        self.imageView1.clipsToBounds = true
+        self.imageView1.isUserInteractionEnabled = true
+        self.imageView1.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapImage(tap:))))
+        self.scrollView.addSubview(self.imageView1)
+        
+        //图片2
+        self.imageView2 = UIImageView()
+        self.imageView2.frame = CGRect(origin: CGPoint(x: self.bounds.width * 2, y: 0), size: self.bounds.size)
+        self.imageView2.contentMode = .scaleAspectFill
+        self.imageView2.clipsToBounds = true
+        self.imageView2.isUserInteractionEnabled = true
+        self.imageView2.addGestureRecognizer(UITapGestureRecognizer(target: self, action: #selector(tapImage(tap:))))
+        self.scrollView.addSubview(self.imageView2)
+        
+        //autoLayout
+        //标题背景
+        let titleView = UIView()
+        titleView.backgroundColor = UIColor(white: 0, alpha: 0.3)
+        titleView.isUserInteractionEnabled = false
+        titleView.translatesAutoresizingMaskIntoConstraints = false
+        self.addSubview(titleView)
+        
+        //标题
+        self.titleLabel = UILabel()
+        self.titleLabel.textColor = .white
+        self.titleLabel.font = UIFont.systemFont(ofSize: 13)
+        self.titleLabel.translatesAutoresizingMaskIntoConstraints = false
+        titleView.addSubview(self.titleLabel)
+        
+        //分页
+        self.pageControl = UIPageControl()
+        self.pageControl.currentPageIndicatorTintColor = .red
+        self.pageControl.isUserInteractionEnabled = false
+        self.pageControl.setContentCompressionResistancePriority(.required, for: .horizontal) //抗压缩
+        self.pageControl.translatesAutoresizingMaskIntoConstraints = false
+        titleView.addSubview(self.pageControl)
+        
+        //设置分页的autoLayout
+        let viewsDictionary: [String: UIView] = ["pageControl": self.pageControl,
+                                                 "titleView": titleView,
+                                                 "titleLabel": titleLabel]
+        
+        //横向约束 Horizontal
+        self.addConstraints(
+            NSLayoutConstraint.constraints(
+                withVisualFormat: "H:|[titleView]|",
+                options: [],
+                metrics: nil,
+                views: viewsDictionary))
+        
+        titleView.addConstraints(
+            NSLayoutConstraint.constraints(
+                withVisualFormat: "H:|-10@999-[titleLabel][pageControl]-10-|",
+                options: [],
+                metrics: nil,
+                views: viewsDictionary))
+        
+        //纵向约束 Vertical
+        self.addConstraints(
+            NSLayoutConstraint.constraints(
+                withVisualFormat: "V:[titleView]|",
+                options: [],
+                metrics: nil,
+                views: viewsDictionary))
+        
+        titleView.addConstraints(
+            NSLayoutConstraint.constraints(
+                withVisualFormat: "V:|[pageControl]|",
+                options: [],
+                metrics: nil,
+                views: viewsDictionary))
+        
+        titleView.addConstraints(
+            NSLayoutConstraint.constraints(
+                withVisualFormat: "V:|-10-[titleLabel]-10-|",
+                options: [],
+                metrics: nil,
+                views: viewsDictionary))
+    }
+    
+    required init?(coder aDecoder: NSCoder) {
+        fatalError("init(coder:) has not been implemented")
     }
     
 }
